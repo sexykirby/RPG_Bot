@@ -16,20 +16,4 @@ bot = commands.Bot(command_prefix = '!', intents = intents)
 async def on_ready():
     print(">> bot is online <<")
 
-bot.run()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+bot.run(jData['TOKEN'])
