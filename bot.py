@@ -11,10 +11,25 @@ intents.message_content = True
 intents.messages = True
 bot = commands.Bot(command_prefix = '!', intents = intents)
 
-
 #確認機器人成功啟動
 @bot.event
 async def on_ready():
     print(">> bot is online <<")
 
-bot.run(jData['TOKEN'])
+bot.run()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
